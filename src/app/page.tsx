@@ -1,5 +1,8 @@
+import Footer from "@/components/ui/home/Footer";
 import Hero from "@/components/ui/home/Hero";
 import Navigation from "@/components/ui/home/Navigation";
+import Partners from "@/components/ui/home/Partners";
+import SocialMediaGallery from "@/components/ui/home/SocialMedia";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,7 +16,7 @@ export default function Home() {
       <Hero />
 
       {/* Featured Boxes Section */}
-      <section className="md:px-16 lg:px-16 flex flex-col text-white">
+      <section className="md:px-16 lg:px-16 flex flex-col text-white font-serif">
         <div className="flex flex-wrap max-h-[600px] w-full h-full">
           <div className="md:w-1/2 w-full order-1 md:order-2 bg-white">
             <img
@@ -138,24 +141,13 @@ whether it's small or BIG ONE !
       </section>
 
       {/* How It Works */}
-      <section className="py-16 px-6 md:px-16 lg:px-24 bg-gray-50 dark:bg-gray-900">
-        {/* Content remains the same */}
-      </section>
+      <Partners />
 
       {/* Testimonials */}
-      <section className="py-16 px-6 md:px-16 lg:px-24">
-        {/* Content remains the same */}
-      </section>
-
-      {/* Newsletter */}
-      <section className="py-16 px-6 md:px-16 lg:px-24 bg-black text-white">
-        {/* Content remains the same */}
-      </section>
+      <SocialMediaGallery/>
 
       {/* Footer */}
-      <footer className="py-12 px-6 md:px-16 lg:px-24 bg-gray-100 dark:bg-gray-900">
-        {/* Content remains the same */}
-      </footer>
+      <Footer/>
     </div>
   );
 }

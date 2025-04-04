@@ -19,11 +19,11 @@ export default function Navigation() {
       </div>
       
       {/* Main Navigation */}
-      <nav className="bg-[#2b2a29] text-white flex justify-between items-center px-6 py-4 md:px-16 lg:px-24">
+      <nav className="bg-transparent absolute top-28 z-50 w-full text-white flex justify-between items-center px-6 py-4 md:px-16 lg:px-24">
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/" className="text-2xl font-bold">
-            <img src="/logo.png" alt="Box & Tale" className="h-16" />
+            <img src="https://boxandtale.com/img/logo_white.png" alt="Box & Tale" className="h-16" />
           </Link>
         </div>
         
